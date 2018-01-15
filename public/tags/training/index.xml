@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training on Ben Forgot</title>
+    <link>/tags/training/</link>
+    <description>Recent content in Training on Ben Forgot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>bensforgotten@gmail.com (Ben Forgot)</managingEditor>
+    <webMaster>bensforgotten@gmail.com (Ben Forgot)</webMaster>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The making of plans</title>
+      <link>/post/2018-01-15-making-plans/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/post/2018-01-15-making-plans/</guid>
+      <description>Had to get back to training every day and yesterday&amp;rsquo;s single digit morning was a good time to begin anew. The goal is five miles with a loaded pack each day, with a couple 10+ mile walks each week, on the way to 20+. Only skipping days with dangerous weather I&amp;rsquo;d hunker down for anyway. Beyond the obvious health benefits, training made a huge difference in getting through the depression from illness and loss.</description>
+    </item>
+    
+  </channel>
+</rss>

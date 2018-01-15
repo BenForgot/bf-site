@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ben Forgot</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Ben Forgot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>bensforgotten@gmail.com (Ben Forgot)</managingEditor>
+    <webMaster>bensforgotten@gmail.com (Ben Forgot)</webMaster>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Helloworld</title>
+      <link>/tags/helloworld/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/helloworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Long Wander</title>
+      <link>/tags/long-wander/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/long-wander/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>/tags/photography/</link>
+      <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reality</title>
+      <link>/tags/reality/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanity</title>
+      <link>/tags/sanity/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/sanity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shitpoem</title>
+      <link>/tags/shitpoem/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/shitpoem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To Do</title>
+      <link>/tags/to-do/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/to-do/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>/tags/training/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <author>bensforgotten@gmail.com (Ben Forgot)</author>
+      <guid>/tags/training/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

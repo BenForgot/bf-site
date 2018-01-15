@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Photo Gallery</title>
+  <meta property="og:title" content="Photo Gallery" />
+  <meta name="twitter:title" content="Photo Gallery" />
+  <meta name="description" content="The visual record">
+  <meta property="og:description" content="The visual record">
+  <meta name="twitter:description" content="The visual record">
+  <meta name="author" content="Ben Forgot"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar.jpg" />
+  <meta name="twitter:image" content="/img/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@benforgot_" />
+  <meta name="twitter:creator" content="@benforgot_" />
+  <meta property="og:url" content="/post/2017-01-14-photo-gallery/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Ben Forgot" />
+
+  <meta name="generator" content="Hugo 0.32.4" />
+  <link rel="canonical" href="/post/2017-01-14-photo-gallery/" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ben Forgot">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/codeblock.css" />
+  <link rel="stylesheet" href="/css/highlight.min.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Ben Forgot</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Writing" href="/">Writing</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Photos" href="/post/2017-01-14-photo-gallery">Photos</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Ben Forgot" href="/">
+            <img class="avatar-img" src="/img/avatar.jpg" alt="Ben Forgot" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Photo Gallery</h1>
+                
+                  
+                    <h2 class="post-subheading">The visual record</h2>
+                  
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 14, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (48 words)
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+  
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0150full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0150full-thumb.jpg" alt="Ghost would really like some grain"/>
+    </div>
+      <figcaption>
+          <p>Ghost</p>
+      </figcaption>
+    <a href="/img/IMG_0150full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0317full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0317full-thumb.jpg" alt="Blizzard? What blizzard? Why would we take shelter?"/>
+    </div>
+      <figcaption>
+          <p>Blizzard</p>
+      </figcaption>
+    <a href="/img/IMG_0317full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0453full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0453full-thumb.jpg" alt="Esther and her daughter Gem were looking particularly goofy that day"/>
+    </div>
+      <figcaption>
+          <p>Derpy</p>
+      </figcaption>
+    <a href="/img/IMG_0453full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0591full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0591full-thumb.jpg" alt="While dealing with Ghost giving birth prematurely, Laurel went into labor with twin girls"/>
+    </div>
+      <figcaption>
+          <p>Laurel&#39;s twins</p>
+      </figcaption>
+    <a href="/img/IMG_0591full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0627full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0627full-thumb.jpg" alt="Henna was born prematurely, weighing a bit over two pounds, when should should have been eight. Hypothermic and on death&#39;s door, she fought to survive with our help."/>
+    </div>
+      <figcaption>
+          <p>Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0627full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0646full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0646full-thumb.jpg" alt="Henna napping after making it to her second day"/>
+    </div>
+      <figcaption>
+          <p>Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0646full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0647full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0647full-thumb.jpg" alt="Preemie lambs needs lots of sleep and love"/>
+    </div>
+      <figcaption>
+          <p>Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0647full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0649full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0649full-thumb.jpg" alt="Her eyes didn&#39;t open until the next day, and I was the first one she saw &lt;3"/>
+    </div>
+      <figcaption>
+          <p>Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0649full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0677full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0677full-thumb.jpg" alt="Laurel&#39;s daughter Hyacinth, the goober"/>
+    </div>
+      <figcaption>
+          <p>Hyacinth</p>
+      </figcaption>
+    <a href="/img/IMG_0677full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0686full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0686full-thumb.jpg" alt="Ghost and Capone have a meeting during her stay in the yurt"/>
+    </div>
+      <figcaption>
+          <p>Mind meld</p>
+      </figcaption>
+    <a href="/img/IMG_0686full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0696full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0696full-thumb.jpg" alt="Henna naps while Ghost does what sheep do, lay around and chew cud"/>
+    </div>
+      <figcaption>
+          <p>Ghost and Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0696full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0985full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0985full-thumb.jpg" alt="Henna at two weeks, on pasture with the rest of the flock. She started small but caught up quick."/>
+    </div>
+      <figcaption>
+          <p>Henna</p>
+      </figcaption>
+    <a href="/img/IMG_0985full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0753full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0753full-thumb.jpg" alt="Steph holds Gem&#39;s first daughter Hazel. She got her Dad&#39;s eyepatch"/>
+    </div>
+      <figcaption>
+          <p>Steph and Hazel</p>
+      </figcaption>
+    <a href="/img/IMG_0753full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0844full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0844full-thumb.jpg" alt="Purdy was from the shelter, where she spent long time because of prolapse and hemorrhoid issues from her bobtail. She loves helping around the farm, would follow us all over while doing chores."/>
+    </div>
+      <figcaption>
+          <p>Purdy</p>
+      </figcaption>
+    <a href="/img/IMG_0844full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0868full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0868full-thumb.jpg" alt="Esther and her second daughter Hyssop. Esther does much better with singles than twins, which she had the year before and was terrible stressed from it."/>
+    </div>
+      <figcaption>
+          <p>Esther and Hyssop</p>
+      </figcaption>
+    <a href="/img/IMG_0868full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0950full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0950full-thumb.jpg" alt="Oh Gold, the only sheep to leave me with a physical scar from her wicked horn. Her grandfather Bruno left me with mental scars"/>
+    </div>
+      <figcaption>
+          <p>Gold</p>
+      </figcaption>
+    <a href="/img/IMG_0950full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0989full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0989full-thumb.jpg" alt="This guy took his job of protecting lambs extremely seriously. Alpaca spit is rank, and the only thing to do is spit right back at them."/>
+    </div>
+      <figcaption>
+          <p>Wally</p>
+      </figcaption>
+    <a href="/img/IMG_0989full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0999full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0999full-thumb.jpg" alt="The running gait of an alpaca is something to behold, looks like it shouldn&#39;t work."/>
+    </div>
+      <figcaption>
+          <p>Wally</p>
+      </figcaption>
+    <a href="/img/IMG_0999full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1000full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1000full-thumb.jpg" alt="The noises alpaca make are super distinctive and unlike any animal I had heard."/>
+    </div>
+      <figcaption>
+          <p>Wally</p>
+      </figcaption>
+    <a href="/img/IMG_1000full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1038full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1038full-thumb.jpg" alt="Feeding time for chubby little lambs, Hyssop photobomb"/>
+    </div>
+      <figcaption>
+          <p>Lambs</p>
+      </figcaption>
+    <a href="/img/IMG_1038full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1068full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1068full-thumb.jpg" alt="I think this is Horehound, Steph had a hard time deciding which of Eunice&#39;s twins was most worthy of the name."/>
+    </div>
+      <figcaption>
+          <p>Horehound</p>
+      </figcaption>
+    <a href="/img/IMG_1068full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1231full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1231full-thumb.jpg" alt="Varda&#39;s first boy Hops, turned out super handsome as he grew up"/>
+    </div>
+      <figcaption>
+          <p>Varda and Hops</p>
+      </figcaption>
+    <a href="/img/IMG_1231full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1320full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1320full-thumb.jpg" alt="Gem&#39;s fleece took second place at the Maine Fiber Frolic."/>
+    </div>
+      <figcaption>
+          <p>Steph and Gem</p>
+      </figcaption>
+    <a href="/img/IMG_1320full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1342full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1342full-thumb.jpg" alt="Unidentified plant in bloom"/>
+    </div>
+      <figcaption>
+          <p>Forest flower</p>
+      </figcaption>
+    <a href="/img/IMG_1342full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_1353full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_1353full-thumb.jpg" alt="Would you like a peep?"/>
+    </div>
+      <figcaption>
+          <p>Tree toad</p>
+      </figcaption>
+    <a href="/img/IMG_1353full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0608full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0608full-thumb.jpg" alt="On the way up Tumbledown Mountain, near Weld, Maine"/>
+    </div>
+      <figcaption>
+          <p>Tumbledown</p>
+      </figcaption>
+    <a href="/img/IMG_0608full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0620full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0620full-thumb.jpg" alt="On the way up Tumbledown Mountain, near Weld, Maine"/>
+    </div>
+      <figcaption>
+          <p>Tumbledown</p>
+      </figcaption>
+    <a href="/img/IMG_0620full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0300full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0300full-thumb.jpg" alt="From on top of Cedar Mesa, near Mexican Hat, Utah. I think some of the Gooseneck of the San Juan is visible"/>
+    </div>
+      <figcaption>
+          <p>Cedar Mesa</p>
+      </figcaption>
+    <a href="/img/IMG_0300full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0306full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0306full-thumb.jpg" alt="I cannot remember the location, Bandelier National Monument maybe?"/>
+    </div>
+      <figcaption>
+          <p>Caves</p>
+      </figcaption>
+    <a href="/img/IMG_0306full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0308full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0308full-thumb.jpg" alt="Cliff dwellings and petroglyphs, I think it is Mesa Verde"/>
+    </div>
+      <figcaption>
+          <p>Mesa Verde</p>
+      </figcaption>
+    <a href="/img/IMG_0308full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0318full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0318full-thumb.jpg" alt="Hoodoo, you do, do what? Bisti De-Na-Zin Wilderness"/>
+    </div>
+      <figcaption>
+          <p>Hoodoo</p>
+      </figcaption>
+    <a href="/img/IMG_0318full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/IMG_0321full-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/IMG_0321full-thumb.jpg" alt="They kinda look like... you know. Bisti De-Na-Zin Wilderness"/>
+    </div>
+      <figcaption>
+          <p>Thingys</p>
+      </figcaption>
+    <a href="/img/IMG_0321full.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+</div>
+
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+            <li class="next">
+              <a href="/post/2018-01-13-shitpoem/" data-toggle="tooltip" data-placement="top" title="Shitpoem 1">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:bensforgotten@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/BenForgot" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/benforgot_" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/benforgotten" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Ben Forgot</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Ben Forgot</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.32.4</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+
