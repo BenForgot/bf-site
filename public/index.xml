@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Forgot</title>
-    <link>/</link>
+    <link>https://benforgot.netlify.com/</link>
     <description>Recent content on Ben Forgot</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>bensforgotten@gmail.com (Ben Forgot)</managingEditor>
     <webMaster>bensforgotten@gmail.com (Ben Forgot)</webMaster>
     <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://benforgot.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The making of plans</title>
-      <link>/post/2018-01-15-making-plans/</link>
+      <link>https://benforgot.netlify.com/post/2018-01-15-making-plans/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2018-01-15-making-plans/</guid>
+      <guid>https://benforgot.netlify.com/post/2018-01-15-making-plans/</guid>
       <description>Had to get back to training every day and yesterday&amp;rsquo;s single digit morning was a good time to begin anew. The goal is five miles with a loaded pack each day, with a couple 10+ mile walks each week, on the way to 20+. Only skipping days with dangerous weather I&amp;rsquo;d hunker down for anyway. Beyond the obvious health benefits, training made a huge difference in getting through the depression from illness and loss.</description>
     </item>
     
     <item>
       <title>Wax on(line), wax off(line)</title>
-      <link>/post/2018-01-15-wipe-on-wipe-off/</link>
+      <link>https://benforgot.netlify.com/post/2018-01-15-wipe-on-wipe-off/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2018-01-15-wipe-on-wipe-off/</guid>
+      <guid>https://benforgot.netlify.com/post/2018-01-15-wipe-on-wipe-off/</guid>
       <description>After spending a few years offline much of the time, followed by six months of being online much of the time, it has become clear I need to find some balance.
 A healthy balance means more time offline than on. I&amp;rsquo;ve had a long, sometimes contentious, relationship with the internet. Compuserve on the home Mac LC 520 was terrible but offered a glimpse of what could be. Using regular internet at the movie rental place I was working in &amp;lsquo;96, I discovered Gamespot and what was The Bowie File.</description>
     </item>
     
     <item>
       <title>First post!</title>
-      <link>/post/2018-01-14-first-post/</link>
+      <link>https://benforgot.netlify.com/post/2018-01-14-first-post/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2018-01-14-first-post/</guid>
+      <guid>https://benforgot.netlify.com/post/2018-01-14-first-post/</guid>
       <description>I need a place to collect my thoughts, memories, photos, and other media. I&amp;rsquo;m naturally forgetful, and much has been lost already. Writing things down sometimes helps me take a different perspective, as I write, and edit, and rewrite, and edit, and so on.
 Not looking to be monetized or have anyone look at advertisements, so this is built in Hugo, hosted on Netlify, and deployed from a repo on Github.</description>
     </item>
     
     <item>
       <title>Shitpoem 1</title>
-      <link>/post/2018-01-13-shitpoem/</link>
+      <link>https://benforgot.netlify.com/post/2018-01-13-shitpoem/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2018-01-13-shitpoem/</guid>
+      <guid>https://benforgot.netlify.com/post/2018-01-13-shitpoem/</guid>
       <description>author&amp;rsquo;s note: I found writing terrible poetry remarkably therapeutic one evening
 Nothing to keep me here
 no reason to stay
@@ -66,10 +66,10 @@ and checking the sky</description>
     
     <item>
       <title>Photo Gallery</title>
-      <link>/post/2017-01-14-photo-gallery/</link>
+      <link>https://benforgot.netlify.com/post/2017-01-14-photo-gallery/</link>
       <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2017-01-14-photo-gallery/</guid>
+      <guid>https://benforgot.netlify.com/post/2017-01-14-photo-gallery/</guid>
       <description>Ghost
 Blizzard
 Derpy
@@ -85,10 +85,10 @@ and checking the sky</description>
     
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>https://benforgot.netlify.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/about/</guid>
+      <guid>https://benforgot.netlify.com/about/</guid>
       <description>My name is Inigo Montoya. I have the following qualities:
  I rock a great mustache I&amp;rsquo;m extremely loyal to my family  What else do you need?
 my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
@@ -96,10 +96,10 @@ my history To be honest, I&amp;rsquo;m having some trouble remembering right now
     
     <item>
       <title>About me</title>
-      <link>/page/about/</link>
+      <link>https://benforgot.netlify.com/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/page/about/</guid>
+      <guid>https://benforgot.netlify.com/page/about/</guid>
       <description>Hi, my name is Ben!  I&amp;rsquo;m 6&amp;rsquo; (182 cm) tall, weigh 155 lbs (70 kg), and my hometown is Boothbay, Maine You&amp;rsquo;re welcome to my identity if you want it, not sure you do I&amp;rsquo;m extremely dull, more so as I get older Also kinda stupid, less so as I get older I like it when people laugh at my dumb jokes Umm&amp;hellip; I have nice hair and also pretty blue eyes &amp;lsquo;cause myopia  My history I&amp;rsquo;ve been a designer, a barista, a programmer, a baker, a shepherd, a farmer, a data analyst, a landscaper, a clerk, a bum, and probably a few other things I&amp;rsquo;ve forgotten.</description>
     </item>
     

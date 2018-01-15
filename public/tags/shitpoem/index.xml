@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shitpoem on Ben Forgot</title>
-    <link>/tags/shitpoem/</link>
+    <link>https://benforgot.netlify.com/tags/shitpoem/</link>
     <description>Recent content in Shitpoem on Ben Forgot</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>bensforgotten@gmail.com (Ben Forgot)</managingEditor>
     <webMaster>bensforgotten@gmail.com (Ben Forgot)</webMaster>
     <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/shitpoem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://benforgot.netlify.com/tags/shitpoem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shitpoem 1</title>
-      <link>/post/2018-01-13-shitpoem/</link>
+      <link>https://benforgot.netlify.com/post/2018-01-13-shitpoem/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
       <author>bensforgotten@gmail.com (Ben Forgot)</author>
-      <guid>/post/2018-01-13-shitpoem/</guid>
+      <guid>https://benforgot.netlify.com/post/2018-01-13-shitpoem/</guid>
       <description>author&amp;rsquo;s note: I found writing terrible poetry remarkably therapeutic one evening
 Nothing to keep me here
 no reason to stay
