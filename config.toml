@@ -14,8 +14,8 @@ pygmentOptions = "linenos=table"
 
 [Params]
   subtitle = "pointless musings of an unretentive would-be wanderer"
-  logo = "img/avatar.jpg"
-  favicon = "img/favicon.ico"
+  logo = "img/bf-logo.png"
+#  favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
