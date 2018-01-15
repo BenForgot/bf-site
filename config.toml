@@ -1,0 +1,94 @@
+baseurl = "/"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Ben Forgot"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentOptions = "linenos=table"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "pointless musings of an unretentive would-be wanderer"
+  logo = "img/avatar.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[[Params.bigimg]]
+  src = "img/IMG_0950wide.jpg"
+[[Params.bigimg]]
+  src = "img/IMG_0989wide.jpg"
+[[Params.bigimg]]
+  src = "img/IMG_0718wide.jpg"
+
+[Author]
+  name = "Ben Forgot"
+  website = "yourwebsite.com"
+  email = "bensforgotten@gmail.com"
+  #facebook = "username"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "BenForgot"
+  #gitlab = "username"
+  twitter = "benforgot_"
+  reddit = "benforgotten"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+
+[[menu.main]]
+    name = "Writing"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "photos"
+    name = "Photos"
+    url = "post/2017-01-14-photo-gallery"
+    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+##    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
+#
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
