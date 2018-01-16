@@ -2,6 +2,7 @@
 title: About me
 subtitle: Wandering though life with a vague destination in mind
 comments: false
+bigimg: [{src: "/img/IMG_1068wide.jpg"}]
 ---
 
 ### Hi, my name is Ben!
