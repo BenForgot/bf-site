@@ -6,6 +6,8 @@ tags: ["photography"]
 ---
 
 {{< gallery caption-effect="fade" >}}
+  {{< figure thumb="-thumb" link="/img/IMG_0880full.jpg" caption="Bridge Out" alt="The footbridge to Whites Island in Wiscasset is in rough shape." >}}
+  {{< figure thumb="-thumb" link="/img/IMG_0858full.jpg" caption="No Sympathy" alt="Interesting name choice there." >}}
   {{< figure thumb="-thumb" link="/img/IMG_0150full.jpg" caption="Ghost" alt="Ghost would really like some grain" >}}
   {{< figure thumb="-thumb" link="/img/IMG_0317full.jpg" caption="Blizzard" alt="Blizzard? What blizzard? Why would we take shelter?" >}}
   {{< figure thumb="-thumb" link="/img/IMG_0453full.jpg" caption="Derpy" alt="Esther and her daughter Gem were looking particularly goofy that day" >}}
